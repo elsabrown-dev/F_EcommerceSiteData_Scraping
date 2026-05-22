@@ -1,0 +1,70 @@
+=== Smart Sitemap Scraper ===
+Started: 2026-05-11 00:26:44
+
+Step 1: Fetching sitemap index...
+Status: 200
+
+Step 2: Parsing sitemap index...
+Total sub-sitemaps found: 19
+
+Step 3: Categorizing sitemaps...
+  CATEGORY: 1 sitemaps
+    - cpc-category.xml
+  HYDRA: 1 sitemaps
+    - cpc-hydra-1.xml (updated: 2026-02-17)
+  BRANDS: 1 sitemaps
+    - brand.xml (updated: 2026-02-17)
+  CUSTOM: 1 sitemaps
+    - cpc-custom.xml (updated: 2026-02-17)
+  PRODUCTS: 13 sitemaps
+    - cpc-pdpd-AB.xml (updated: 2026-02-17)
+    - cpc-pdpd-AH.xml (updated: 2026-02-17)
+    - cpc-pdpd-DO.xml (updated: 2026-02-17)
+    ... and 10 more
+  OTHER: 2 sitemaps
+    - cat-cpc.xml (updated: 2026-02-17)
+    - cpc-new-products-sitemap.xml (updated: 2026-02-17)
+
+Step 4: Processing 13 product sitemaps in parallel...
+  Fetching: cpc-pdpd-AB.xml
+  Fetching: cpc-pdpd-AH.xml
+  Fetching: cpc-pdpd-DO.xml
+  Fetching: cpc-pdpd-HA.xml
+  Fetching: cpc-pdpd-MC.xml
+    -> Found 9053 URLs
+  Fetching: cpc-pdpd-RL.xml
+    -> Found 1491 URLs
+  Fetching: cpc-pdpd-SC.xml
+    -> Found 9948 URLs
+  Fetching: cpc-pdpd-ML.xml
+    -> Found 35815 URLs
+  Fetching: cpc-pdpd-NN.xml
+    -> Found 7145 URLs
+  Fetching: cpc-pdpd-RC.xml
+    -> Found 11 URLs
+  Fetching: cpc-pdpd-RR.xml
+    -> Found 3671 URLs
+  Fetching: cpc-pdpd-SD.xml
+    -> Found 235 URLs
+  Fetching: cpc-pdpd-SH.xml
+    -> Found 4155 URLs
+    -> Found 55 URLs
+    -> Found 9778 URLs
+    -> Found 5481 URLs
+    -> Found 16996 URLs
+
+Total product URLs found: 103834
+
+Sample product URLs:
+  https://cpc.farnell.com/pro-elec/pelb1086/iec-inlet-filtered-switch-double-fuse-1a/dp/CN22400
+  https://cpc.farnell.com/pro-elec/pelb1066/iec-inlet-filtered-1a/dp/CN22380
+  https://cpc.farnell.com/pro-elec/pelb1067/iec-inlet-filtered-3a/dp/CN22381
+  https://cpc.farnell.com/pro-elec/pelb1068/iec-inlet-filtered-6a/dp/CN22382
+  https://cpc.farnell.com/pro-elec/pelb1070/iec-inlet-filtered-with-fuse-1a/dp/CN22384
+  https://cpc.farnell.com/pro-elec/pelb1071/iec-inlet-filtered-with-fuse-2a/dp/CN22385
+  https://cpc.farnell.com/pro-elec/pel00878/hand-dryer-automatic-brushed-steel/dp/PL10193
+  https://cpc.farnell.com/pro-elec/pel00879/hand-dryer-automatic-powder-coated/dp/PL10194
+  https://cpc.farnell.com/pro-elec/pel01025/hand-dryer-1800w/dp/PL15029
+  https://cpc.farnell.com/pro-elec/pelb0036/hand-dryer-1200w-satin-finish/dp/PL16288
+
+Product URL patterns:
